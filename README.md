@@ -454,9 +454,9 @@ If applicable, our EU/EEA representative:
 
 For privacy-related questions or concerns:
 
-- **Support Server:** https://discord.gg/HwHD8a5QXa
+- **Support Server:** https://discord.gg/thjHdvbbDX
 - **Documentation:** [Your Documentation URL]
-- **Owner ID:** 1270759337916104708
+- **Owner ID:** 1282273859982069761
 
 ### 14.2 Response Time
 
