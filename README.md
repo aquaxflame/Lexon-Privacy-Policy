@@ -1,14 +1,16 @@
 # Lexon™ Discord Bot - Privacy Policy
 
+**Last Updated:** October 18, 2026
+
 ---
 
 ## 1. Introduction
 
-Welcome to the Privacy Policy for **Lexon™** ("we", "us", "our", or "the Bot"). We are committed to protecting your privacy and ensuring transparency about how we collect, use, store, and protect your data.
+Welcome to the Privacy Policy for **Lexon™** ("we", "us", "our", or "the Bot"). We are committed to protecting your privacy and being transparent about how we collect, use, store, and protect your data.
 
-This Privacy Policy explains our data practices for Lexon™, a comprehensive Discord bot providing anti-nuke protection, automoderation, ticket systems, music playback, fun commands, autoresponders, automations, autoroles, voice moderation, moderation tools, utility commands, and more.
+This Privacy Policy explains our data practices for Lexon™, a Discord bot providing anti-nuke protection, automoderation, ticket systems, applications, music playback, AI chat, leveling, giveaways, roleplay and fun commands, autoresponders, autoroles, welcome messages, voice tools, moderation tools, utility commands, and more.
 
-By using Lexon™, you consent to the data practices described in this Privacy Policy. If you do not agree with this Privacy Policy, please discontinue use of the Bot immediately.
+By using Lexon™, you consent to the data practices described in this Privacy Policy. If you do not agree, please discontinue use of the Bot immediately.
 
 ---
 
@@ -16,75 +18,69 @@ By using Lexon™, you consent to the data practices described in this Privacy P
 
 ### 2.1 Automatically Collected Data
 
-When you use Lexon, we automatically collect certain information necessary for the Bot to function:
+When you use Lexon™, we collect the information necessary for the Bot to function:
 
 #### Server Data
 - **Server ID:** Unique identifier for Discord servers
-- **Server name and settings:** For display and configuration purposes
-- **Channel IDs and names:** To provide channel-specific features
-- **Role IDs and names:** For permission management and autorole features
-- **Server configuration:** Custom settings, enabled features, and preferences
-- **Server member count:** For analytics and statistics
+- **Channel and role IDs:** To provide channel-specific and role-based features
+- **Server configuration:** Prefix, enabled features, and custom settings
+- **Server member count:** For member counters and statistics
 
 #### User Data
 - **User ID:** Your unique Discord identifier
-- **Username and discriminator:** For identification and display
-- **Avatar URL:** For profile displays and embeds
-- **Roles:** To enforce permissions and autorole functionality
-- **Join dates:** For member tracking features
-- **Nickname:** Server-specific display name
+- **Username and avatar:** For displays and embeds (stored only by features such as feedback and suggestions)
+- **Roles:** To enforce permissions, autoroles, and jail/mute restoration
+- **Invite data:** Who invited whom, and invite statistics (if invite tracking is used)
 
 #### Message Data (Limited)
-- **Message IDs:** For logging and moderation
-- **Message content:** Only when explicitly required for:
-  - Automoderation (spam detection, content filtering)
-  - Autoresponder triggers
-  - Command processing
-  - Ticket systems
-  - Moderation logs
-- **Message metadata:** Timestamps, author, channel, attachments (URLs only)
-- **Deleted/edited message logs:** For moderation purposes (if enabled)
+- **Message content:** Read only to run commands and configured features:
+  - Automoderation (spam, links, invites, caps, blacklisted words)
+  - Autoresponders and auto-reactions
+  - AI chat (only in channels where it is enabled)
+  - Leveling and giveaway message requirements
+- **Message counts:** Daily/total message counts per user (counts only, not the text)
+- **Deleted-message cache:** The last deleted message per channel is kept in memory only (for the snipe command) and is lost on restart
 
 #### Voice Data
-- **Voice state information:** Channel connections, mute/deafen status
-- **Voice activity logs:** Join/leave times, duration (if enabled)
-- **Voice channel IDs:** For voice moderation features
+- **Voice time:** Time spent in voice channels per day (for leaderboards and statistics)
+- **Voice state:** Channel connections, used for temporary voice channels and voice roles
 
 #### Interaction Data
-- **Command usage:** Commands executed, parameters used
+- **Command usage:** Commands executed and their parameters
 - **Button/menu interactions:** Interactions with Bot features
-- **Reaction data:** For reaction roles and interactive features
-- **Timestamps:** When interactions occur
+- **Reaction data:** For reaction roles, polls, and suggestions
+- **Votes:** If you vote for the Bot on Top.gg, we store your User ID, your vote count, and your last vote time to give vote rewards
 
 ### 2.2 User-Provided Data
 
 You may provide additional data through:
 
 #### Configuration Settings
-- **Custom commands and responses:** Autoresponder configurations
-- **Moderation settings:** Warning thresholds, punishment configurations
-- **Welcome/goodbye messages:** Custom text and images
-- **Autorole rules:** Criteria for automatic role assignment
-- **Whitelists/blacklists:** Anti-nuke trusted users, filtered words
-- **Ticket categories and settings:** Support system configuration
-- **Music preferences:** Playlist data, favorite tracks
+- **Custom responses:** Autoresponder and auto-reaction configurations
+- **Moderation settings:** Automod rules, whitelists, ignored users/channels/roles, blacklisted words
+- **Anti-nuke settings:** Trusted users and extra owners
+- **Welcome/greet and sticky messages:** Custom text, embeds, and images
+- **Autorole, reaction role, and vanity role rules**
+- **Server backups:** Role and channel structure saved by a server administrator
 
 #### User-Generated Content
-- **Ticket conversations:** Messages within support tickets
-- **Moderation cases:** Reports, notes, and case details
-- **Custom embed content:** User-created embeds and announcements
-- **Poll responses and votes:** Participation in Bot-created polls
+- **Tickets:** Ticket records and the messages within tickets
+- **Applications:** Your submitted answers and review status
+- **Feedback and suggestions:** Your text, rating, name, and avatar
+- **AI chat:** Your messages, the AI's replies, and optional personality settings
+- **Reminders, AFK status, and birthdays:** Text and dates you choose to set
+- **Moderation cases:** Warnings, jail records, and mutes with reasons
+- **Music data:** Linked Spotify profile ID and 24/7 music settings
 
 ### 2.3 Data We Do NOT Collect
 
 Lexon™ explicitly does NOT collect:
-- Private/direct messages unless the Bot is directly involved
+- Private/direct messages, unless you are interacting with the Bot directly
 - Message content outside of configured features
 - Personal information beyond Discord-provided data
-- Payment information (processed by third-party providers)
+- Payment information
 - Location data
 - Device information or IP addresses
-- Biometric data
 - Sensitive personal information (health, financial, etc.)
 
 ---
@@ -98,48 +94,34 @@ We use collected data exclusively to:
 #### Provide Bot Functionality
 - Execute commands and features
 - Process automoderation rules
-- Manage ticket systems
+- Manage tickets, applications, giveaways, and leveling
 - Play music and manage queues
-- Deliver autoresponder triggers
-- Implement automations and autoroles
-- Moderate voice channels
-- Generate server statistics and insights
+- Generate AI chat replies
+- Run autoresponders, autoroles, welcome messages, and voice tools
+- Generate server statistics and leaderboards
 
 #### Security and Protection
-- Detect and prevent abuse
 - Anti-nuke protection and threat detection
-- Spam and raid prevention
-- Identify Terms of Service violations
+- Spam, raid, and abuse prevention
+- Moderation and audit logging
 - Maintain Bot integrity and security
-- Audit logging for accountability
 
-#### Service Improvement
-- Analyze usage patterns and trends
+#### Service Improvement and Support
 - Identify bugs and performance issues
-- Develop new features and enhancements
-- Optimize Bot performance
-- Generate anonymized statistics
-
-#### Support and Communication
-- Respond to user inquiries
-- Troubleshoot technical issues
-- Provide customer support
-- Send service announcements (critical updates only)
-- Investigate reported issues
+- Develop new features
+- Respond to inquiries and troubleshoot issues
+- Send critical service announcements
 
 #### Legal Compliance
-- Comply with legal obligations
-- Respond to lawful requests
+- Comply with legal obligations and lawful requests
 - Enforce our Terms of Service
 - Protect our rights and property
 
 ### 3.2 Data Minimization
 
-We adhere to data minimization principles:
-- Only collect data necessary for Bot functionality
-- Automatically delete data when no longer needed
-- Provide options to disable data collection for certain features
-- Regularly review and purge unnecessary data
+- We only collect data necessary for Bot functionality
+- Most features can be disabled by server administrators
+- Message content is processed only for the features described above
 
 ---
 
@@ -147,45 +129,31 @@ We adhere to data minimization principles:
 
 ### 4.1 Storage Infrastructure
 
-- **Secure databases:** Data is stored in encrypted databases
+- **Databases:** Data is stored in database files on our servers
 - **Geographic location:** Servers located in [Your Server Location/Region]
-- **Backup systems:** Regular backups for data integrity
-- **Access controls:** Strict access limitations to authorized personnel only
+- **Access controls:** Access is limited to authorized personnel only
 
 ### 4.2 Retention Periods
-
-Different data types are retained for varying periods:
 
 #### Configuration Data
 - **Active servers:** Retained while the Bot is in the server
 - **Removed servers:** Deleted within 30 days of Bot removal
 - **Custom settings:** Retained for 90 days after Bot removal
 
-#### Moderation Data
-- **Active cases:** Retained indefinitely while relevant
-- **Audit logs:** Retained for 180 days (configurable by server)
-- **Warning/punishment history:** Retained for 1 year or as configured
+#### Moderation, Ticket, and Application Data
+- **Warnings, jail, and mute records:** Retained until removed by server moderators or deleted under Section 4.3
+- **Tickets and applications:** Retained according to server settings
+- **Audit logs:** Sent to the server's own log channel, where the server controls retention
 
-#### Ticket Data
-- **Active tickets:** Retained while open
-- **Closed tickets:** Retained for 90 days or as configured
-- **Transcripts:** Retained according to server settings
+#### AI Chat Data
+- **Conversation memory:** Only the most recent entries are kept; older entries are removed automatically
+- **Clearing:** You can clear your AI chat history with the Bot's AI commands
 
-#### Message Logs
-- **Moderation logs:** 30-180 days (configurable)
-- **Automod cache:** 24-48 hours
-- **Command history:** 30 days
-
-#### Music Data
-- **Queue data:** Cleared when playback ends
-- **Playlist data:** Retained until manually deleted
-
-#### Usage Analytics
-- **Command statistics:** Aggregated and anonymized, retained indefinitely
-- **Performance metrics:** Retained for 90 days
-
-#### User-Specific Data
-- **Personal settings:** Retained while Bot is in mutual servers
+#### Usage and Activity Data
+- **Message counts, voice time, XP, and invite stats:** Retained while the Bot is in the server
+- **Vote data:** Retained as long as needed to provide vote rewards
+- **Deleted-message cache and music queues:** Held in memory only and cleared on restart or when playback ends
+- **Playlist and 24/7 music data:** Retained until manually deleted
 
 ### 4.3 Data Deletion
 
@@ -215,11 +183,7 @@ We do NOT sell, rent, or trade your data. Limited sharing occurs only with:
 
 #### Service Providers
 - **Hosting providers:** To store and process data
-- **Analytics services:** Anonymized usage statistics only
-- **Payment processors:** For premium features (if applicable)
-- **Music APIs:** Song metadata and playback requests only
-
-All third parties are contractually bound to protect your data.
+- **Third-party APIs:** Only the data needed for a feature to work (see Section 12)
 
 #### Discord Platform
 - The Bot operates on Discord's infrastructure
@@ -228,21 +192,11 @@ All third parties are contractually bound to protect your data.
 
 ### 5.2 Legal Disclosures
 
-We may disclose data when required to:
-- Comply with legal obligations (court orders, subpoenas)
-- Enforce our Terms of Service
-- Protect rights, safety, and security
-- Prevent fraud or illegal activities
-- Respond to government requests
-
-We will notify affected users unless prohibited by law.
+We may disclose data when required to comply with legal obligations (court orders, subpoenas), enforce our Terms of Service, protect rights and safety, prevent fraud or illegal activities, or respond to government requests. We will notify affected users unless prohibited by law.
 
 ### 5.3 Business Transfers
 
-In the event of a merger, acquisition, or sale:
-- We will notify users before data transfer
-- Your data will remain subject to this Privacy Policy
-- You may delete your data before transfer
+In the event of a merger, acquisition, or sale, we will notify users before data transfer, your data will remain subject to this Privacy Policy, and you may delete your data before transfer.
 
 ---
 
@@ -250,42 +204,21 @@ In the event of a merger, acquisition, or sale:
 
 ### 6.1 Security Measures
 
-We implement industry-standard security practices:
-
-#### Technical Safeguards
-- **Encryption:** Data encrypted at rest and in transit (TLS/SSL)
-- **Access controls:** Role-based access, two-factor authentication
-- **Secure APIs:** Rate limiting, authentication tokens
-- **Regular updates:** Security patches and updates
-- **Monitoring:** Real-time threat detection and logging
-- **Firewalls:** Network-level protection
-
-#### Administrative Safeguards
-- **Staff training:** Security awareness and best practices
-- **Background checks:** For personnel with data access
-- **Incident response:** Procedures for security breaches
-- **Regular audits:** Security and compliance reviews
-
-#### Physical Safeguards
-- **Data centers:** Secure, monitored facilities
-- **Redundancy:** Geographic distribution and backups
-- **Disaster recovery:** Business continuity plans
+- **Access controls:** Limited access to databases, tokens, and keys
+- **Secure connections:** Data in transit to Discord and third-party APIs uses TLS/SSL
+- **Regular updates:** Security patches and dependency updates
+- **Monitoring:** Logging and review of errors and suspicious activity
+- **Incident response:** Procedures for handling security breaches
 
 ### 6.2 Limitations
 
-Despite our efforts:
-- No system is 100% secure
-- We cannot guarantee absolute security
-- Users are responsible for their Discord account security
-- Report security vulnerabilities to us immediately
+- No system is 100% secure, and we cannot guarantee absolute security
+- Users are responsible for their own Discord account security
+- Please report security vulnerabilities to us immediately
 
 ### 6.3 Breach Notification
 
-In the event of a data breach:
-- We will investigate immediately
-- Notify affected users within 72 hours
-- Report to relevant authorities as required
-- Take remedial action to prevent recurrence
+In the event of a data breach, we will investigate immediately, notify affected users within 72 hours, report to relevant authorities as required, and take action to prevent recurrence.
 
 ---
 
@@ -298,38 +231,30 @@ You have the right to:
 - **Data portability:** Receive data in a structured format
 - **Rectification:** Correct inaccurate data
 - **Erasure:** Request deletion of your data
-- **Restriction:** Limit processing of your data
-- **Objection:** Object to certain data processing
+- **Restriction and objection:** Limit or object to certain processing
 
 ### 7.2 How to Exercise Rights
 
-To exercise your rights:
-1. Contact us through our support server or email
-2. Provide verification of your identity (Discord User ID)
+1. Contact us through our support server
+2. Provide your Discord User ID for verification
 3. Specify your request clearly
 4. Allow up to 30 days for processing
 
 ### 7.3 Opt-Out Options
 
-You can opt-out of certain features:
-- Disable specific Bot features in your server
-- Use commands to delete your personal data
-- Adjust privacy settings in Bot configuration
-- Remove the Bot from your server entirely
+- Server administrators can disable specific Bot features
+- Server administrators can disable AI chat or remove its channel
+- You can remove the Bot from your server entirely
 
 ### 7.4 California Privacy Rights (CCPA)
 
-If you are a California resident, you have additional rights:
-- Right to know what data is collected
-- Right to deletion of personal information
-- Right to opt-out of data "sales" (we don't sell data)
-- Right to non-discrimination for exercising rights
+If you are a California resident, you have the right to know what data is collected, to request deletion, to opt out of data "sales" (we don't sell data), and to non-discrimination for exercising your rights.
 
 ### 7.5 European Privacy Rights (GDPR)
 
 If you are in the European Economic Area:
 - Legal basis for processing: Legitimate interest, consent, contract
-- Right to lodge a complaint with supervisory authority
+- Right to lodge a complaint with a supervisory authority
 - Right to withdraw consent at any time
 - Data protection officer contact: [Your DPO Contact]
 
@@ -339,17 +264,14 @@ If you are in the European Economic Area:
 
 ### 8.1 Age Restrictions
 
-ZeoN™ complies with the Children's Online Privacy Protection Act (COPPA):
+Lexon™ complies with the Children's Online Privacy Protection Act (COPPA):
 - The Bot is not directed at children under 13
 - We do not knowingly collect data from children under 13
 - Discord's minimum age is 13 (or higher in some regions)
 
 ### 8.2 Parental Rights
 
-If you believe a child under 13 has provided data:
-- Contact us immediately
-- We will delete the data promptly
-- We will take steps to prevent future collection
+If you believe a child under 13 has provided data, contact us immediately. We will delete the data promptly and take steps to prevent future collection.
 
 ---
 
@@ -357,12 +279,7 @@ If you believe a child under 13 has provided data:
 
 ### 9.1 Cross-Border Transfers
 
-If you use Lexon™ outside of [Your Region]:
-- Data may be transferred internationally
-- We ensure adequate protection through:
-  - Standard contractual clauses
-  - Privacy Shield frameworks (where applicable)
-  - Adequate safeguards as required by law
+If you use Lexon™ outside of [Your Region], your data may be transferred internationally. We ensure adequate protection through standard contractual clauses and other safeguards required by law.
 
 ### 9.2 Your Consent
 
@@ -372,17 +289,7 @@ By using Lexon™, you consent to international data transfers as described.
 
 ## 10. Cookies and Tracking
 
-### 10.1 Bot Usage
-
-Lexon™ does not use cookies or web tracking technologies within Discord.
-
-### 10.2 Website (If Applicable)
-
-If we operate a website:
-- Essential cookies for functionality
-- Analytics cookies (with consent)
-- Cookie policy available on the website
-- Options to manage cookie preferences
+Lexon™ does not use cookies or web tracking technologies within Discord. If we operate a website, any cookies used will be described in its own cookie policy.
 
 ---
 
@@ -390,26 +297,15 @@ If we operate a website:
 
 ### 11.1 Updates
 
-We may update this Privacy Policy to:
-- Reflect changes in Bot functionality
-- Comply with legal requirements
-- Improve our practices
-- Address user feedback
+We may update this Privacy Policy to reflect changes in Bot functionality, comply with legal requirements, or improve our practices.
 
 ### 11.2 Notification
 
-We will notify you of significant changes through:
-- In-bot announcements
-- Support server notifications
-- Updated "Last Updated" date
-- Direct messages (for material changes)
+We will notify you of significant changes through in-bot announcements, support server notifications, and the updated "Last Updated" date.
 
 ### 11.3 Your Continued Use
 
-Continued use after changes constitutes acceptance. If you disagree:
-- Stop using the Bot
-- Request data deletion
-- Contact us with concerns
+Continued use after changes constitutes acceptance. If you disagree, stop using the Bot and request data deletion.
 
 ---
 
@@ -417,17 +313,18 @@ Continued use after changes constitutes acceptance. If you disagree:
 
 ### 12.1 External Integrations
 
-ZeoN™ may integrate with:
-- **Music services:** YouTube, Spotify, SoundCloud (APIs only)
-- **Analytics:** Privacy-respecting analytics platforms
-- **Payment processors:** Secure payment gateways (if applicable)
+Lexon™ may send limited data to the following services, only when the related feature is used:
+- **Groq:** AI chat messages are sent to generate replies
+- **Pollinations / Prodia:** Image prompts are sent for AI image generation
+- **YouTube, Spotify, Lavalink:** Search terms and track links for music playback
+- **Top.gg:** Server count, and vote events (User ID) for vote rewards
+- **OtakuGIFs, Giphy, Urban Dictionary:** Search terms or GIF category requests for roleplay and fun commands
+
+We do not send these services your Discord ID or personal details unless needed for the feature (for example, the vote event from Top.gg).
 
 ### 12.2 Third-Party Policies
 
-External services have their own privacy policies:
-- We are not responsible for third-party practices
-- Review their policies independently
-- Data shared is limited to necessary information
+External services have their own privacy policies. We are not responsible for third-party practices, and you should review their policies independently.
 
 ---
 
@@ -467,19 +364,7 @@ We aim to respond to all inquiries within:
 
 ---
 
-## 15. Transparency Report
-
-We are committed to transparency. Our annual transparency report includes:
-- Number of data requests received
-- Legal disclosure requests
-- Security incidents (if any)
-- Service improvements
-
-Available at: [Transparency Report URL]
-
----
-
-## 16. Compliance Certifications
+## 15. Compliance
 
 Lexon™ strives to comply with:
 - General Data Protection Regulation (GDPR)
@@ -489,7 +374,7 @@ Lexon™ strives to comply with:
 
 ---
 
-## 17. Acknowledgment
+## 16. Acknowledgment
 
 BY USING LEXON™, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS PRIVACY POLICY, UNDERSTAND IT, AND AGREE TO ITS TERMS. IF YOU DO NOT AGREE, YOU MUST NOT USE THE BOT.
 
@@ -500,4 +385,4 @@ BY USING LEXON™, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS PRIVACY POLICY, UNDER
 
 ---
 
-© 2026 Lexon™. All rights reserved. This Privacy Policy is subject to our Terms of Service. ZeoN™ is not affiliated with, endorsed by, or sponsored by Discord Inc.
+© 2026 Lexon™. All rights reserved. This Privacy Policy is subject to our Terms of Service. Lexon™ is not affiliated with, endorsed by, or sponsored by Discord Inc.
